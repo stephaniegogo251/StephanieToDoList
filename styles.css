@@ -1,0 +1,83 @@
+body {
+    background-image: url('./images/pinkbg.jpg');
+    background-size: 50%;
+    background-repeat: repeat;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(249, 194, 198);
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+}
+
+.logo {
+    width: 10%;
+    padding: 25px;
+    background-color: #fc8eac;
+    border-right: 2px solid #ffb7c5;
+}
+
+.links {
+    width: 90%;
+    background-color: #fc8eac;
+}
+
+.list-items {
+    display: flex;
+    justify-content: right;
+    gap: 10%;
+    padding: 15px;
+    list-style-type: none;
+}
+
+#task-form {
+    background-color: #ffa3a6;
+    padding: auto;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #c78f92;
+    border-radius: 5px;
+    color: #46201e;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    display: block;
+    justify-content: left;
+}
+
+.task-item {
+    margin: 15px;
+    font-size: 20px;
+    width: 100%;
+}
+
+#add-task {
+    display: block;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#tasks {
+    display: block;
+    justify-content: centers;
+}
+
+#new-task-section {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 0;
+    position: fixed;
+    font-size: 20px;
+}
+
